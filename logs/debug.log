@@ -1,0 +1,239 @@
+2019-09-30 13:59:21,469     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 13:59:29,656  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 13:59:29,667     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 13:59:30,579     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 13:59:36,276     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 13:59:36] "GET / HTTP/1.1" 200 -
+2019-09-30 13:59:36,509     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 13:59:36] "GET /favicon.ico HTTP/1.1" 404 -
+2019-09-30 14:00:43,320     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:00:43] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:00:45,196     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:00:45] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:00:52,717     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:00:52] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:01:11,928     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:01:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:01:22,161     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:01:22] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:01:28,705     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:01:28] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:01:31,849     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:01:31] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:01:54,021     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:02:03,963  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:02:03,977     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:02:04,824     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:02:05,135     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:02:05] "GET / HTTP/1.1" 200 -
+2019-09-30 14:08:32,681     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:08:42,006  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:08:42,020     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:08:42,862     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:08:43,049     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:08:43] "GET / HTTP/1.1" 200 -
+2019-09-30 14:08:49,099     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:08:49] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:08:58,253     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:08:58] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:09:11,045     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:09:22,100     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:22] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:09:44,349     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:44] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:09:47,969     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:09:53,848     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:53] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:09:58,875     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:09:58] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:10:04,833     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:10:04] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:10:14,432     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:10:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:10:21,259     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:10:21] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:10:21,588     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:10:21] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:11:15,422     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:11:23,559  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:11:23,567     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:11:24,407     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:11:36,392     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:11:36] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:11:37,054     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:11:37] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:11:39,730     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:11:39] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:11:41,957     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:11:41] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:15:03,071     INFO _internal.py:L122:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-09-30 14:15:05,921     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:05] "GET / HTTP/1.1" 200 -
+2019-09-30 14:15:08,056     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:08] "GET / HTTP/1.1" 200 -
+2019-09-30 14:15:16,168     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:16] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:21,084     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:21] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:27,694     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:27] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:30,881     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:30] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:34,421     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:34] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:36,196     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:36] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:40,192     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:40] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:40,358     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:40] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:42,639     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:42] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:43,136     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:43] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:45,078     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:45] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:45,430     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:45] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:47,337     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:47,834     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:50,198     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:50] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:15:51,301     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:15:51] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:05,594     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:05] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:05,750     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:05] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:07,549     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:07] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:09,994     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:09] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:12,841     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:12] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:16,932     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:16] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:21,695     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:21] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:24,560     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:24] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:16:25,658     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:16:25] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:11,029     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:11,450     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:14,471     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:14,851     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:15,816     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:15] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:16,521     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:16] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:19,742     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:19] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:22,193     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:22] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:24,512     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:24] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:28,944     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:28] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:17:29,821     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:17:29] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:29:48,538     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:29:54,900  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:29:54,907     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:29:55,812     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:29:59,033     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:29:59] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:03,215     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:03] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:06,926     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:06] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:07,024     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:07] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:14,524     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:14,860     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:14] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:30:37,893     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:30:44,141  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:30:44,153     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:30:44,990     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:30:47,436     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:50,627     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:50] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:55,227     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:55] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:30:55,460     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:30:55] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:31:23,620     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:31:29,966  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:31:29,973     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:31:30,810     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:31:33,850     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:33] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:31:36,914     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:36] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:31:39,316     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:39] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:31:41,150     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:41] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:31:45,343     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:45] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:31:45,531     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:31:45] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:37:49,687     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\app.py', reloading
+2019-09-30 14:37:49,971     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:38:25,386     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:38:49,785  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:38:49,792     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:38:50,632     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:38:57,185     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:38:57] "GET / HTTP/1.1" 200 -
+2019-09-30 14:39:00,661     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:39:00] "GET / HTTP/1.1" 200 -
+2019-09-30 14:39:05,120     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:39:05] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:39:08,869     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:39:08] "POST /callback HTTP/1.1" 500 -
+2019-09-30 14:40:07,552     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:40:14,748  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:40:14,755     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:40:15,595     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:40:15,760     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:40:15] "GET / HTTP/1.1" 200 -
+2019-09-30 14:40:19,670     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:40:19] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:40:25,500     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:40:25] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:40:42,291     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\app.py', reloading
+2019-09-30 14:40:42,585     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:40:49,234  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:40:49,241     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:40:50,083     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:41:07,544     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:07] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:41:10,975     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:10] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:41:13,993     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:13] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:41:14,140     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:41:16,835     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:16] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:41:17,095     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:41:17] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:43:20,233     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\app.py', reloading
+2019-09-30 14:44:42,469     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:44:50,624  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:44:50,635     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:44:51,477     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:44:51,506     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:44:51] "GET / HTTP/1.1" 200 -
+2019-09-30 14:44:56,817     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:44:56] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:45:00,880     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:45:00] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:45:04,656     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:45:04] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:45:04,841     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:45:04] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:45:06,252     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:45:06] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:45:09,415     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:45:09] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:46:25,942     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\app.py', reloading
+2019-09-30 14:46:26,229     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:46:33,326  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:46:33,333     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:46:34,170     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:46:45,631     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:46:45] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:46:48,962     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:46:48] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:15,898     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\app.py', reloading
+2019-09-30 14:47:16,227     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:47:29,929     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 14:47:39,298  WARNING _internal.py:L122:  * Debugger is active!
+2019-09-30 14:47:39,322     INFO _internal.py:L122:  * Debugger PIN: 268-483-082
+2019-09-30 14:47:40,169     INFO _internal.py:L122:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-09-30 14:47:42,136     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:42] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:46,317     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:46] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:52,800     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:52] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:54,504     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:54] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:56,021     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:56] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:56,410     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:56] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:57,540     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:57] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:47:59,536     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:47:59] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:48:02,774     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:48:02] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:48:02,838     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:48:02] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:48:49,654     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:48:49] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:14,362     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:14] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:35,317     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:35] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:36,935     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:36] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:47,772     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:47,936     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:47] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:51,916     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:51] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:49:52,373     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 14:49:52] "POST /callback HTTP/1.1" 200 -
+2019-09-30 14:52:08,530     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limumacoline\\models.py', reloading
+2019-09-30 14:52:08,765     INFO _internal.py:L122:  * Restarting with stat
+2019-09-30 15:00:01,692     INFO _internal.py:L122:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-09-30 15:00:01,889     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:01] "GET / HTTP/1.1" 200 -
+2019-09-30 15:00:07,110     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:07] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:00:11,318     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:00:46,886     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:46] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:00:50,987     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:50] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:00:56,336    ERROR app.py:L1761: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\app.py", line 104, in callback
+    handler.handle(body, signature)
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\venv\lib\site-packages\linebot\webhook.py", line 260, in handle
+    func(event)
+  File "C:\Users\akayama\Dropbox\gitlab\limumacoline\app.py", line 173, in postback
+    user.option = 0
+AttributeError: 'NoneType' object has no attribute 'option'
+2019-09-30 15:00:56,366     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:56] "POST /callback HTTP/1.1" 500 -
+2019-09-30 15:00:57,037     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:00:57] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:18,691     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:18] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:20,427     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:20] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:22,708     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:22] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:24,467     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:24] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:27,426     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:27] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:01:27,488     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:01:27] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:10,715     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:10] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:11,102     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:11] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:15,488     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:15] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:15,641     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:15] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:17,421     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:17] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:20,328     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:20] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:20,434     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:20] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:32,252     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:32] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:32,801     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:32] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:50,871     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:50] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:51,233     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:51] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:53,820     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:53] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:54,208     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:54] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:02:59,932     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:02:59] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:03:00,520     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:03:00] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:03:05,435     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:03:05] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:03:05,991     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:03:05] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:04:13,070     INFO _internal.py:L122:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-09-30 15:04:36,474     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:04:36] "GET / HTTP/1.1" 200 -
+2019-09-30 15:04:43,215     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:04:43] "POST /callback HTTP/1.1" 200 -
+2019-09-30 15:04:48,745     INFO _internal.py:L122: 127.0.0.1 - - [30/Sep/2019 15:04:48] "POST /callback HTTP/1.1" 200 -
