@@ -1,1 +1,4 @@
 .idea/
+__pycache__/settings.cpython-37.pyc
+__pycache__/models.cpython-37.pyc
+__pycache__/app.cpython-37.pyc

@@ -31,7 +31,6 @@ users = user_df['id'].tolist()
 users = '&'.join(users)
 
 headers = {'accept': 'application/json'}
-# url='https://platform.coi.kyushu-u.ac.jp/lineapp/api/order/20191001/test1%26test2'
 url = f'https://platform.coi.kyushu-u.ac.jp/lineapp/api/order/{date}/{users}'
 
 res = requests.get(url, headers=headers)
@@ -54,9 +53,17 @@ member = orders[flag]
 non_member = orders[[not i for i in flag]]
 if len(member) == 0:
     member = orders
+
+# decide delivery
+query = 'select user_id, sum(price) as price from orders where collected = 0 group by user_id'
+total_df = pd.read_sql(query, db_engine)
+total_df['price'] -= total_df['price'].min()
+p = []
+for i, row in member.iterrows():
+    p.append(int(total_df[total_df['user_id'] == row['user_id']]['price']))
 np.random.seed(int(now.timestamp()))
-p = [1] * len(member)  # must edit
 deli = np.random.choice(member.to_dict(orient='records'), p=np.array(p) / sum(p))
+
 total = orders['price'].sum()
 s.add(Orders(date=deli['date'], user_id=deli['user_id'], type='delivery', menu='配達', price=int(-1 * total)))
 s.add(Orders(date=deli['date'], user_id=deli['user_id'], type='bonus', menu='ボーナス',
@@ -75,7 +82,8 @@ for meal_name, meal_group in meal_grouped:
     size_grouped = meal_group.groupby('size', sort=False)
     for size, size_group in size_grouped:
         size_group = size_group.sort_values('timestamp')
-        message += f'\n{size_list[size]}  {",".join(size_group["user_name"].tolist())}'
+        membertext = '\n      '.join(size_group["user_name"].tolist())
+        message += f'\n{size_list[size]}  {membertext}'
         tmp += f'\n{size_list[size]} {len(size_group)}個'
 message += '\n\nーーーーーーーーーーーーーー'
 message += tmp
