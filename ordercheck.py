@@ -82,7 +82,7 @@ for meal_name, meal_group in meal_grouped:
     size_grouped = meal_group.groupby('size', sort=False)
     for size, size_group in size_grouped:
         size_group = size_group.sort_values('timestamp')
-        membertext = '\n      '.join(size_group["user_name"].tolist())
+        membertext = '\n          '.join(size_group["user_name"].tolist())
         message += f'\n{size_list[size]}  {membertext}'
         tmp += f'\n{size_list[size]} {len(size_group)}個'
 message += '\n\nーーーーーーーーーーーーーー'
