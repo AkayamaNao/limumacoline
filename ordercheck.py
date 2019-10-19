@@ -12,6 +12,16 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, FollowEve
 import settings
 from models import *
 
+
+def notify(message):
+    line_notify_api = 'https://notify-api.line.me/api/notify'
+    group_headers = {'Authorization': 'Bearer ' + settings.notify_token}
+    payload = {'message': message}
+    try:
+        requests.post(line_notify_api, data=payload, headers=group_headers)
+    except:
+        print('LINE Notify Error : ' + message)
+
 db_engine = create_engine(settings.db_info, pool_pre_ping=True)
 line_bot_api = LineBotApi(settings.access_token)
 handler = WebhookHandler(settings.secret_key)
@@ -31,7 +41,7 @@ users = user_df['id'].tolist()
 users = '&'.join(users)
 
 headers = {'accept': 'application/json'}
-url = f'https://platform.coi.kyushu-u.ac.jp/lineapp/api/order/{date}/{users}'
+url = f'https://limumakottyann-app.herokuapp.com/api/order/{date}/{users}'
 
 res = requests.get(url, headers=headers)
 orders = res.json()
@@ -77,17 +87,19 @@ tmp = ''
 meal_grouped = orders.groupby('meal_name', sort=False)
 for meal_name, meal_group in meal_grouped:
     message += f'\n\n{meal_name}'
-    tmp += f'\n\n{meal_name}'
+    tmp += f'\n{meal_name}\n'
     meal_group = meal_group.sort_values('size')
     size_grouped = meal_group.groupby('size', sort=False)
     for size, size_group in size_grouped:
         size_group = size_group.sort_values('timestamp')
         membertext = '\n          '.join(size_group["user_name"].tolist())
         message += f'\n{size_list[size]}  {membertext}'
-        tmp += f'\n{size_list[size]} {len(size_group)}個'
-message += '\n\nーーーーーーーーーーーーーー'
+        tmp += f'{size_list[size]} {len(size_group)}個\n'
+message += '\n\nーーーーーーーーーーーーーー\n'
 message += tmp
-message += f'\n\n合計  {total}円'
+message += f'\n合計  {total}円'
+
+notify(tmp+'お願いします')
 
 for i, row in orders.iterrows():
     line_bot_api.push_message(row['user_id'], TextSendMessage(text=message))

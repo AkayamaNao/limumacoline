@@ -30,7 +30,7 @@ user_df = pd.read_sql(query, db_engine)
 users = user_df['id'].tolist()
 
 headers = {'accept': 'application/json'}
-url = f'https://platform.coi.kyushu-u.ac.jp/lineapp/api/menu/{date}'
+url = f'https://limumakottyann-app.herokuapp.com/api/menu/{date}'
 
 res = requests.get(url, headers=headers)
 menu = res.json()
@@ -41,7 +41,7 @@ if len(menu) > 0:
     for row in menu:
         menunames.append(row['name'])
     message += ','.join(menunames)
-    message += '\nです。\n\nご注文はこちらから\nhttp://nav.cx/4VQZMbx'
+    message += '\nです。\n\nご注文はこちらから\nhttp://nav.cx/m0rgCfg'
 
     for id in users:
         line_bot_api.push_message(id, TextSendMessage(text=message))

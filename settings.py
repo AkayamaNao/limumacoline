@@ -11,6 +11,10 @@ secret_key = '0c2ca89194fe8a2178d8f25c2da15730'
 
 root_password = 'llllllllmmllllllll'
 
+maco_token = 'D9mwMqqQf2dgxS9kJNbIFh0djqCT7n4ywDyHS2ZGZFS'
+my_token='rL71jYoAcCK3pgRh4JmMzGVPdO8DDKd5y6gk13AVvYO'
+notify_token=maco_token
+
 if testmode==1:
     db_info = 'postgres://xaqmiseiftraat:1f2af75031b9c5f8ad5e4d232bad8c3a0dbc27d69cee97949fbba48bc35a0b66@ec2-107-22-160-185.compute-1.amazonaws.com:5432/d7ldiibuihtqds'
     DEBUG = True
