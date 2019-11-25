@@ -71,6 +71,8 @@ total_df['price'] -= total_df['price'].min()
 p = []
 for i, row in member.iterrows():
     p.append(int(total_df[total_df['user_id'] == row['user_id']]['price']))
+if sum(p)<=0:
+    p=list(np.array(p) + 1)
 np.random.seed(int(now.timestamp()))
 deli = np.random.choice(member.to_dict(orient='records'), p=np.array(p) / sum(p))
 
