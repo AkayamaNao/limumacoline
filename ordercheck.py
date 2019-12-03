@@ -54,6 +54,7 @@ for order in orders:
     user.name = order['user_name']
     s.add(Orders(date=order['date'], user_id=order['user_id'], type='order',
                  menu=f'{order["meal_name"]} {size_list[order["size"]]}', price=order['price']))
+s.commit()
 
 orders = pd.DataFrame.from_dict(orders)
 user_df = user_df[user_df['option'] == 0]
