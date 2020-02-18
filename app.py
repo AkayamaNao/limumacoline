@@ -182,6 +182,10 @@ def message_text(event):
             }
             messages.append(carousel)
         data = {'replyToken': event.reply_token, 'messages': messages}
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + settings.access_token
+        }
         res = requests.post(reply_url, data=json.dumps(data), headers=headers)
 
     elif text == '配信':
