@@ -63,6 +63,7 @@ db_engine = create_engine(settings.db_info, pool_pre_ping=True)
 line_bot_api = LineBotApi(settings.access_token)
 handler = WebhookHandler(settings.secret_key)
 size_list = ['小盛', '並盛', '大盛']
+exemption_price = 50
 
 headers = {
     'Content-Type': 'application/json',
@@ -183,6 +184,38 @@ def message_text(event):
         data = {'replyToken': event.reply_token, 'messages': messages}
         res = requests.post(reply_url, data=json.dumps(data), headers=headers)
 
+    elif text == '配信':
+        Session = sessionmaker(bind=db_engine)
+        s = Session()
+
+        now = datetime.datetime.now()
+        date = now + datetime.timedelta(days=1)
+        date = date.strftime('%Y%m%d')
+
+        query = 'select * from users where option != -1'
+        user_df = pd.read_sql(query, db_engine)
+        users = user_df['id'].tolist()
+
+        headers = {'accept': 'application/json'}
+        url = f'https://limumakottyann-app.herokuapp.com/api/menu/{date}'
+
+        res = requests.get(url, headers=headers)
+        menu = res.json()
+
+        if len(menu) > 0:
+            message = '明日のメニューは\n'
+            menunames = []
+            for row in menu:
+                menunames.append(row['name'])
+            message += ','.join(menunames)
+            message += '\nです。\n\nご注文はこちらから\nhttp://nav.cx/m0rgCfg'
+
+            for id in users:
+                line_bot_api.push_message(id, TextSendMessage(text=message))
+        else:
+            message = '明日のメニューは登録されていません'
+            line_bot_api.reply_message(event.reply_token, TextSendMessage(text=message))
+
 
 @handler.add(PostbackEvent)
 def postback(event):
@@ -207,7 +240,7 @@ def postback(event):
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text=message))
 
     elif data == 'rich_list':
-        query = f'select date, menu, price from orders where user_id=\'{user_id}\' and collected=0'
+        query = f'select date, menu, price from orders where user_id=\'{user_id}\' and collected=0 order by date;'
         df = pd.read_sql(query, db_engine)
         if len(df) > 0:
             message = ''
